@@ -12,8 +12,8 @@ collections:
     create: true
     fields:
       - { name: type, widget: hidden, default: suborg }
-      - { name: title, label: Title }
-      - { name: description, label: Description, widget: markdown }
+      - { name: title, label: Name }
+      - { name: body, label: Description, widget: markdown }
   - name: blog
     label: Posts
     folder: pages/blog
