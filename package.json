@@ -12,6 +12,8 @@
     "gatsby-link": "^1.6.40",
     "gatsby-plugin-netlify-cms": "^2.0.1",
     "gatsby-plugin-typescript": "^1.4.20",
+    "gatsby-source-filesystem": "^1.5.38",
+    "gatsby-transformer-remark": "^1.7.41",
     "netlify-cms": "^1.8.4",
     "typescript": "^2.9.1"
   }
