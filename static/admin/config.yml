@@ -1,5 +1,5 @@
 backend:
-  name: github
+  name: gitlab
   repo: StudentforeningenCampusSkelleftea/studentforeningen
 
 media_folder: static/assets
