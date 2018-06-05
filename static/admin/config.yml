@@ -1,6 +1,6 @@
 backend:
   name: gitlab
-  repo: StudentforeningenCampusSkelleftea/studentforeningen
+  repo: Studentforeningen/studentforeningen
 
 media_folder: static/assets
 public_folder: assets
