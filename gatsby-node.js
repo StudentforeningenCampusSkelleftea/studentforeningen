@@ -19,7 +19,7 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
 
     const blogPostTemplate = path.resolve("src/templates/blogTemplate.js")
 
-    return Promise.resolve()
+    return Promise.resolve()/*
     .then(() => {
         return graphql(`
             {
@@ -51,7 +51,7 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
                 })
             })
         })
-    })
+    })*/
     .then(() => {
         return graphql(`
             {
