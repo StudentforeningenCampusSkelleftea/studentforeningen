@@ -1,5 +1,9 @@
 module.exports = {
+    siteMetadata: {
+        title: "Studentföreningen",
+    },
     plugins: [
+        "gatsby-plugin-typography",
         "gatsby-plugin-react-helmet",
         "gatsby-plugin-netlify-cms",
         {
@@ -10,5 +14,5 @@ module.exports = {
             }
         },
         "gatsby-transformer-remark",
-    ]
+    ],
 }
