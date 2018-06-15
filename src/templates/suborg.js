@@ -1,4 +1,7 @@
 import React from "react"
+import { Helmet } from "react-helmet"
+
+import favicon from "./../../static/assets/logo2_white-1-.gif"
 
 export default function Template({ data }) {
     const { markdownRemark } = data;
@@ -6,6 +9,9 @@ export default function Template({ data }) {
 
     return (
         <div>
+            <Helmet>
+                <title>{frontmatter.title}</title>
+            </Helmet>
             <h1>{frontmatter.title}</h1>
             <div dangerouslySetInnerHTML={{ __html: html }} />
         </div>

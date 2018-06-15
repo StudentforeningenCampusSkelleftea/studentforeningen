@@ -39,9 +39,11 @@ export default ({ children, data }) => (
             <title>{data.site.siteMetadata.title}</title>
         </Helmet>
         <Container>
+            <Link to="/">
             <BrandLogo src="https://cdn.svgporn.com/logos/git.svg" />
+            </Link>
             <ul style={{ float: "right" }}>
-                <ListLink to="/">Link</ListLink>
+                <ListLink to="/suborg">Undersektioner</ListLink>
             </ul>
         </Container>
         <Content>
